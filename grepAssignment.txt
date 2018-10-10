@@ -17,7 +17,7 @@ grep '^[^C]' cities.txt | cat -n
 
 
 6)
-
+grep -E '[^ ]{14,}' cities.txt | cat -n
 
 7)
 grep '^B' cities.txt | cat -n
@@ -27,3 +27,14 @@ grep '^B' cities.txt | cat -n
 grep -o 'd' cities.txt| cat -n
 
 9)
+grep -E 'aa\>|bb\>|ll\>|ee\>|ii\>|yy\>' cities.txt
+
+10)
+grep -Eiw '^([a-z])([a-z])([a-z])\2\1' cities.txt
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+1)
+grep '^Z' cities.txt | cat
+
+2)
+grep 'gan\>' cities.txt | cat
+
+
+3)
+grep '^[ADE]' cities.txt | cat -n
+
+4)
+grep '\<.ar' cities.txt | cat -n
+
+
+5)
+grep '^[^C]' cities.txt | cat -n
+
+
+6)
+
+
+7)
+grep '^B' cities.txt | cat -n
+
+
+8)
+grep -o 'd' cities.txt| cat -n
+
+9)
